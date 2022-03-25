@@ -1,0 +1,121 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.cuerpo {
+    background-color: beige;
+}
+
+.encabezado {
+    background-color: rgb(197, 196, 196);
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly
+}
+
+.inicio  {
+    color: red;
+}
+
+.caja-wpp {
+    border: black solid 50px;
+    display: inline;
+    position: relative;
+    top: 460px;
+
+}
+
+.chat:hover {
+    color: green;
+}
+
+.chat:active {
+    color: white;
+}
+
+.chat {
+    color: white;
+    position: relative;
+    top: 460px;
+    left: 5px;
+}
+
+.header  {
+    color: white;
+    text-decoration: unset;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+.header:hover  {
+    color: black;
+}
+
+.buscador {
+    color: black;
+    text-decoration: unset;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+.entrevista {
+    color:  black;
+    text-align: center;
+    border-radius: 30px;
+    font-family: 'Oswald', sans-serif;
+    display: inline-block;
+    position: relative;
+    bottom: 700px;
+    left: 600px;
+}
+
+.entrevista:hover {
+    transform: scale(3);
+    transition-duration: 2s;
+}
+
+.comunidad {
+     text-align: center;
+     position: relative;
+     bottom: 710px;
+}
+
+.footer {
+    background-color: rgb(197, 196, 196);
+    padding: 10px;
+    align-items: center;
+}
+
+.box {
+    border: white solid 5px;
+    width: 550px;
+    height: 50px;
+}
+
+.ingresar {
+  margin-left: 20px;
+}
+
+.unite {
+    background-color: blue;
+    color: white;
+    padding: 15px;
+    font-size: 17px;
+    position: relative;
+    left: 580px;
+    bottom: 55px;
+}
+
+.vuelta {
+    text-decoration: none;
+
+}
+
+.redes {
+    text-align: right;
+}
+
+.section-entrevistas {
+    margin-left: 0px;
+    margin-right: 0px;
+}
